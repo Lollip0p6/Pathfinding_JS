@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pathfinding</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Pathfinding</h1>
+    <canvas id="board"></canvas>
+    <div class="main-actions">
+        <button id="find" class="find-button">Find</button>
+        <button id="reset" class="reset-button">Reset</button>
+    </div>
+    <div class="draw">
+        <button id="start" class="start-button">Start</button>
+        <button id="finish" class="finish-button">Finish</button>
+    </div>
+    <div class="size">
+        <div class="slider">
+            <p>h:</p>
+            <input type="range" min="2" max="20" name="h" id="height">
+        </div>
+        <div class="slider">
+            <p>w:</p>
+            <input type="range" min="2" max="20" name="w" id="width">
+        </div>
+        <button id="resetgrid" class="grid-button">Reset Grid</button>
+    </div>
+</body>
+</html>

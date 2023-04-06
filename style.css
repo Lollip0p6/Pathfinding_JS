@@ -1,0 +1,64 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #181818;
+    color: white;
+}
+
+.main-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.main-actions button{
+    margin-top: 20px;
+    height: 50px;
+    width: 70px;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+
+.main-actions :hover{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.draw button{
+    height: 30px;
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.draw :hover{
+    cursor: pointer;
+}
+.start-button {
+    background-color: #2741B5;
+    color: white;
+}
+
+.finish-button {
+    background-color: #D52F15;
+    color: white;
+}
+
+.size {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
